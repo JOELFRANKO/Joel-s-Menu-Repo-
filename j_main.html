@@ -1,11 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Joel Franko">
+        <meta name="Description" content="The official Website for a Cafe Menu">
+        <title>Joel's Cafe</title>
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="CSS/j_styles.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Welcome to Joel's Cafe</h1>
+
+            <!-- Navigation Bar -->
+             
+            <nav>
+                <ul>
+                    <li>
+                        <a href = "#about">About <abbr title="Joel's Cafe">JC</abbr></a> 
+                    </li>
+                    <li>
+                        <a href = "#menu">Menue</a> 
+                    </li>
+                    <li>
+                        <a href = "hours.html">Store Hours</a> 
+                    </li>
+                    <li>
+                        <a href = "contact.html">Contact Us</a> 
+                    </li>
+                </ul>
+            </nav>
+
+            <figure>
+                <img src="j_Images/noimg_250 × 250.webp" alt="Food and Drings" title="Joel's Cafe!" width="250" height="250">
+                <figcaption>Joel's Cafe is a favorite spot for locals</figcaption>
+            </figure>
+
+        </header>
+        <hr>
+
+        <!-- Main Body -->
+
+        <main>
+            <article id="about">
+                <h2>About <abbr title="Joel's Cafe">JC</abbr></h2>
+                <p>Joel's Cafe was found in <time datetime="2024 September">2024 September</time>. Our Cafe is a 
+                    small but family-friendly cafe located in the heart of Chennai City. 
+                    We serve delicious and freshly baked goods, and we're always looking for new and exciting 
+                    dessert ideas to try. Our Cafe was designed on the theame of <strong>Cold Forest and Sprakling rain.</strong>
+                    We hope you'll join us for a delightful evening and enjoy our warm coffee with a cold rainy dense atmosphere.☕☕☕
+                </p>
+                <aside>
+                    <h3>Cafee Trivia</h3>
+                    <details>
+                        <summary>where did the word cafe come from?</summary>
+                        <p>
+                            The English term café, borrowed from the French, derives ultimately from the Turkish kahve, 
+                            meaning coffee.
+                        </p>
+                    </details>
+                    <details>
+                        <summary>was the first cafe opened?</summary> 
+                        <p>The first café is said to have opened in <time datetime="1550">1550</time> in Constantinople; during the 17th century cafés 
+                            opened in Italy, France, Germany, and England.
+                        </p>
+                    </details>
+                </aside>
+            </article>
+            <hr>
+        <!-- Cafe Menu Section -->
+            <article id="menu">
+                <h2>Cafe Menu</h2>
+                <table>
+                    <caption>coffee Menu</caption>
+                    <thead>
+                        <tr>
+                            <th>Coffee</th>
+                            <th scope="col"><abbr title="Quantity">Qty</abbr></th>
+                            <th scope="col">Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row" rowspan="3">
+                                Capachino
+                            </th>
+                            <td>1</td>
+                            <td>$5.00</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>$7.00</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>$10.0</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" rowspan="3">
+                                Late
+                            </th>
+                            <td>1</td>
+                            <td>$5.00</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>$7.00</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>$10.0</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" rowspan="3">
+                                Moca
+                            </th>
+                            <td>1</td>
+                            <td>$4.00</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>$6.00</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>$8.0</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3" >
+                                Pastries &amp; Dessert $7.00
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+                <br>
+                <p>
+                    <a href="#"> Back to the Top </a>
+                </p>
+            </article>
+
+        </main>
+        <hr>
+
+        <!-- Footer -->
+
+        <footer>
+            <p>copyright &copy; 2024 Joel's Cafe. All rights reserved.</p>
+        </footer>
+    </body>
 </html>
